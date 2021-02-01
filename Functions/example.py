@@ -47,4 +47,3 @@ running_time_SmultiSNE_missingData  = end_time_SmultiSNE_missingData  - start_ti
 
 np.savetxt("S_multiSNE_p50_handwrittenDigits.txt", S_multiSNE_missingData)
 np.savetxt("running_time_SmultiSNE_p50_handwrittenDigit.txt", [running_time_multiSNE_labels])
-
