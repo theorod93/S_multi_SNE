@@ -40,10 +40,11 @@ Xinput[3] = np.copy(Xd)
 Xinput[4] = np.copy(Xe)
 Xinput[5] = np.copy(Xf)
 Xinput[6] = np.copy(missing_labels_matrix)
-start_time_multiSNE_missingData = time.time()
-Y_multiSNE_missingData = missingData_multiSNE(Xinput, 2, 50, perp, 1000)
-end_time_multiSNE_missingData  = time.time()
-running_time_multiSNE_missingData  = end_time_multiSNE_missingData  - start_time_multiSNE_missingData
+start_time_SmultiSNE_missingData = time.time()
+S_multiSNE_missingData = missingData_multiSNE(Xinput, 2, 50, perp, 1000)
+end_time_SmultiSNE_missingData  = time.time()
+running_time_SmultiSNE_missingData  = end_time_SmultiSNE_missingData  - start_time_SmultiSNE_missingData
 
-np.savetxt("S_multiSNE_p50_handwrittenDigits.txt", Y_multiSNE_missingData)
+np.savetxt("S_multiSNE_p50_handwrittenDigits.txt", S_multiSNE_missingData)
+np.savetxt("running_time_SmultiSNE_p50_handwrittenDigit.txt", [running_time_multiSNE_labels])
 
