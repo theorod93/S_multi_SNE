@@ -28,7 +28,7 @@ Xi = np.array([[(0,0),(0,0), (0,0)],
                       [(0,0)]])
 # Prepare colVector
 labels = colVector.reshape(colVector.shape[0],1) # True labels
-missing_labels_matrix = np.loadtxt("missing_labels_matrix.txt") # Contains elements with "nan" values. ncol = number of classes (10 in this case)
+missing_labels_matrix = np.loadtxt("nan_label_matrix.txt") # Contains elements with "nan" values. ncol = number of classes (10 in this case)
 
 perp = 50
 # Missing labels
