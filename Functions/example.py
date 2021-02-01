@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Anonymous
+"""
+
+'''
+An example of running missingData_multiSNE()
+> Handwritten digits
+'''
+
 from S_multi_SNE import *
 import time
 import numpy as np
