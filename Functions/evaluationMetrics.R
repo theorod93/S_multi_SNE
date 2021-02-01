@@ -149,7 +149,7 @@ evalMeasures_multiSNE_kNN <- function(Y, trueLabels, nanIndex){
               "evalMeasures" = eval_measures_perp))
 }
 
-Example
+## Example ##
 S_multiSNE <- vector("list")
 SmultiSNE <- as.matrix(fread("S_multiSNE_p50_handwrittenDigits.txt"))
 
@@ -157,5 +157,3 @@ true_labels <- as.vector(as.matrix(fread("~/digitLabels.txt")))
 nan_index <- as.vector(as.matrix(fread("~/nan_index.txt")))
 
 evaluation_S_mutliSNE <- evalMeasures_multiSNE_kNN(Y = S_multiSNE, trueLabels = true_labels, nanIndex = nan_index)
-
-
