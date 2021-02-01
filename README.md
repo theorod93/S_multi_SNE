@@ -1,4 +1,4 @@
-# S_multi_SNE
+# S-multi-SNE
 Supervised multi-SNE  (S-multi-SNE): Multi-view visualisation and classification
 
 ### Functions
