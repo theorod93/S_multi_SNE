@@ -7,7 +7,7 @@ Please find the necessary code to reproduce the findings as described in the rel
 
 Please follow the links found in the submitted manuscript to download the data.
 
-I hope you find the information here to be sufficient in reproducing the findings as presented in the relevant submission.
+Hope you find the information here to be sufficient in reproducing the findings as presented in the relevant submission.
 
 
 ### Functions
