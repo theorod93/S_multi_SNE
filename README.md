@@ -1,7 +1,7 @@
 # S-multi-SNE
 Supervised multi-SNE  (S-multi-SNE): Multi-view visualisation and classification
 
-A repository containing the code to reproduce the findings of S-multi-SNE: Multi-view visualisation and classification, submitted for the ICML '21 conference.
+A repository containing the code to reproduce the findings of S-multi-SNE: Multi-view visualisation and classification, submitted for the ECML '21 conference.
 
 Please find the necessary code to reproduce the findings as described in the relevant submission, but please bear in mind that the randomness in selecting appropriate training and test data may result in slightly different resuts.
 
